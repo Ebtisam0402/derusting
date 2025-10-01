@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListPractice {
@@ -25,14 +26,24 @@ public class ListPractice {
     // I used add method to add the element.
     // Check whether the list contains a certain string
     System.out.println("Contains a certain string manar :" + list.contains("manar"));
+    
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
+    for (int i =0; i<list.size(); i++){
+      System.out.println( ( "index:" +"["+ i+"]"  )+list.get(i) );
+    }
+
 
     // Sort the list using the Collections library
+   Collections.sort(list);
+   System.out.println(list);
 
+   
     // Iterate over the list using a for-each loop
     // Print each value on a second line
-
+    for (String i: list){
+      System.out.println(i);
+    }
     /*
      * Usage tip!
      * 
