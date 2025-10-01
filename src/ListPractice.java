@@ -12,9 +12,11 @@ public class ListPractice {
     list.add("Ebtisam");
     list.add("Manar");
     list.add("Afnan");
+    list.set(1,"Semah");
     // Print the element at index 1
-   System.out.println(list.get(1));
+   //System.out.println(list.get(1));
     // Replace the element at index 1 with a new value
+    System.out.println(list);
     // (Do not insert a new value. The length of the list should not change)
 
     // Insert a new element at index 0 (the length of the list will change)
