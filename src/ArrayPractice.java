@@ -22,11 +22,15 @@ public class ArrayPractice {
    System.out.println("Element at index " + i + ": " +myArray[i]);
  }
     // Iterate over the array using a for-each loop and print out each item
-
+   for (String myArray1 : myArray ){
+    System.out.println(myArray1);
+   }
+    
+   }
     /*
      * Reminder!
      * 
      * Arrays start at index 0
      */
   }
-}
+
