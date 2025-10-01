@@ -18,13 +18,13 @@ public class ListPractice {
    //System.out.println(list.get(1));
     // Replace the element at index 1 with a new value
     //I used the set method to replace the list with new value.
-    System.out.println(list);
+    //System.out.println(list);
     // (Do not insert a new value. The length of the list should not change)
 
     // Insert a new element at index 0 (the length of the list will change)
-
+    // I used add method to add the element.
     // Check whether the list contains a certain string
-
+    System.out.println("Contains a certain string manar :" + list.contains("manar"));
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
 
