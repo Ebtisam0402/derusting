@@ -12,6 +12,7 @@ public class ArrayPractice {
     myArray[3] =  "South Seattle";
 
     // Get the value of the array at index 2
+    System.out.println(myArray[2]);
 
     // Get the length of the array
 
