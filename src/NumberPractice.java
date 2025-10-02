@@ -23,7 +23,10 @@ public class NumberPractice {
     
 
     // Divide the number by another number using integer division
-
+    int c = 18;
+    int d = 5;
+    int y =c/d ;
+    System.out.println(y);
     /*
      * Reminder!
      * 
