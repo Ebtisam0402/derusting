@@ -13,6 +13,7 @@ public class SetPractice {
 
 
     // Check whether the Set contains a given String
+    System.out.println(schools.contains("Green River"));
 
     // Remove an element from the Set
 
