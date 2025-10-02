@@ -15,6 +15,9 @@ public class MapPractice {
      people.put("Semah", 4);
 
     // Get the value associated with a given key in the Map
+    for(String i:people.keySet() ){
+      System.out.println("key: " + i + "value: " + people.get(i));
+    }
 
     // Find the size (number of key/value pairs) of the Map
 
