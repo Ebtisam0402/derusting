@@ -1,7 +1,8 @@
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
-
+    String message = "Struggle Coding";
+    System.out.println(message);
     // Find the length of the string
 
     // Concatenate (add) two strings together and reassign the result
