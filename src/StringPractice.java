@@ -7,7 +7,9 @@ public class StringPractice {
     System.out.println(message.length());
 
     // Concatenate (add) two strings together and reassign the result
-     
+     String message1= "Happy";
+     String message2= "Friday!";
+     System.out.println(message1 +" "+ message2);
     // Find the value of the character at index 3
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
