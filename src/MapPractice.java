@@ -23,7 +23,10 @@ public class MapPractice {
     System.out.println(people.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    String  keyToReplace ="Afnan";
+    Integer newValue = 5;
+    people.replace(keyToReplace,newValue);
+    System.out.println(people);
     // Check whether the Map contains a given key
 
     // Check whether the Map contains a given value
