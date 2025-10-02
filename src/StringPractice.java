@@ -9,9 +9,11 @@ public class StringPractice {
     // Concatenate (add) two strings together and reassign the result
      String message1= "Happy";
      String message2= "Friday!";
-     System.out.println(message1 +" "+ message2);
+     String message3 =message1 + message2;
+     System.out.println(message3);
     // Find the value of the character at index 3
 
+    System.out.println(message3.indexOf("p"));
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
 
     // Iterate over the characters of the string, printing each one on a separate line
