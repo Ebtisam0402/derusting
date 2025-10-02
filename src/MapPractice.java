@@ -16,10 +16,11 @@ public class MapPractice {
 
     // Get the value associated with a given key in the Map
     for(String i:people.keySet() ){
-      System.out.println("key: " + i + "value: " + people.get(i));
+      System.out.println("key: " + i + " value: " + people.get(i));
     }
 
     // Find the size (number of key/value pairs) of the Map
+    System.out.println(people.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
 
