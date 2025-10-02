@@ -16,8 +16,10 @@ public class SetPractice {
     System.out.println(schools.contains("Green River"));
 
     // Remove an element from the Set
+    System.out.println(schools.remove("Seattle Central"));
 
     // Get the size of the Set
+    System.out.println(schools.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
 
