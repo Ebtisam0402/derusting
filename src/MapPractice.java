@@ -41,8 +41,10 @@ public class MapPractice {
       System.out.println("valu:" + age);
     }
     // Iterate over the entries in the map, printing each key and value
-    
-    /*
+    for(String i: people.keySet()){
+      Integer age = people.get(i);
+    System.out.println("key: " + i + " valu: " + age);
+    }/*
      * Usage tip!
      * 
      * Maps are great when you want a specific key to value mapping.
