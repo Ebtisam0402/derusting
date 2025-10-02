@@ -4,9 +4,10 @@ public class StringPractice {
     String message = "Struggle Coding";
     System.out.println(message);
     // Find the length of the string
+    System.out.println(message.length());
 
     // Concatenate (add) two strings together and reassign the result
-
+     
     // Find the value of the character at index 3
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
