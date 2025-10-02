@@ -28,8 +28,9 @@ public class MapPractice {
     people.replace(keyToReplace,newValue);
     System.out.println(people);
     // Check whether the Map contains a given key
-
+    System.out.println("Is the given key Semah present?" + people.containsKey("Semah"));
     // Check whether the Map contains a given value
+    System.out.println("Is the given value 3 present?" + people.containsValue(3));
 
     // Iterate over the keys of the Map, printing each key
 
