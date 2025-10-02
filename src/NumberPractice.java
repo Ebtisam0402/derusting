@@ -1,11 +1,16 @@
 public class NumberPractice {
   public static void main(String args[]) {
     // Create a float with a negative value and assign it to a variable
-
+    float myFloat = -6.1f;
+    System.out.println(myFloat);
     // Create an int with a positive value and assign it to a variable
-
+    int myInt = 250;
+    System.out.println(myInt);
     // Use the modulo % operator to find the remainder when the int is divided by 3
-
+    int a = 8;
+    int b = 3;
+    int x = a%b;
+    System.out.println(x);
     // Use the modulo % operator to determine whether the number is even
     // (A number is even if it has a remainder of zero when divided by 2)
     // Use an if-else to print "Even" if the number is even and "Odd"
