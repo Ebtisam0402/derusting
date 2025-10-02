@@ -33,11 +33,15 @@ public class MapPractice {
     System.out.println("Is the given value 3 present?" + people.containsValue(3));
 
     // Iterate over the keys of the Map, printing each key
-
+    for(String name: people.keySet()){
+      System.out.println("key:" + name);
+    }
     // Iterate over the values of the map, printing each value
-
+    for(Integer age: people.values()){
+      System.out.println("valu:" + age);
+    }
     // Iterate over the entries in the map, printing each key and value
-
+    
     /*
      * Usage tip!
      * 
