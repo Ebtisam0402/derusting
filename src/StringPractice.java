@@ -15,7 +15,7 @@ public class StringPractice {
 
     System.out.println(message3.indexOf("p"));
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
-
+    System.out.println(message3.contains("abc"));
     // Iterate over the characters of the string, printing each one on a separate line
 
     // Create an ArrayList of Strings and assign it to a variable
