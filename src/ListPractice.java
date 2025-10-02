@@ -16,10 +16,10 @@ public class ListPractice {
     list.set(1,"Semah");
     list.add(0,"Abdulaziz");
     // Print the element at index 1
-   //System.out.println(list.get(1));
+   System.out.println(list.get(1));
     // Replace the element at index 1 with a new value
     //I used the set method to replace the list with new value.
-    //System.out.println(list);
+    System.out.println(list);
     // (Do not insert a new value. The length of the list should not change)
 
     // Insert a new element at index 0 (the length of the list will change)
