@@ -22,7 +22,9 @@ public class SetPractice {
     System.out.println(schools.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
-
+     for (String i : schools){
+      System.out.println(i);
+     }
     /*
      * Warning!
      * 
